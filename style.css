@@ -1,0 +1,107 @@
+
+*{ margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    padding:0 15px;
+    background-color: #FFFFFF;
+
+}
+#head{
+    width: 100%;
+    position: fixed;
+    top: 0;
+}
+hr{
+    width: 90%;
+    margin-left:30px;
+}
+#user{
+    width: 87%;
+    padding:15px;
+    margin-left:50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#FFFFFF;
+    
+}
+
+h3{
+    color: rgba(49, 49, 49, 0.879);
+}
+#user #l-btn{
+    font-size: 17px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #EAF2FE;
+    color: #2cb6e0;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+}
+
+
+.search-box{
+    width: 87%;
+    padding:15px;
+    margin-top: 10px;
+    margin-left:50px;
+    border-radius: 20px;
+    border: 1px solid rgb(208, 208, 208);
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    background-color: #FFFFFF;
+  
+ }
+.search-box input{
+    width:30%;
+    margin-left: 25px;
+    padding: 15px;
+    font-size: 16px;
+    outline:none ;
+    border: 1px solid #565656;
+    border-radius: 15px;
+    background-color:#F4F6F6;
+ }
+
+ .search-box #S-btn{
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: rgb(104, 50, 152);
+    color: #ffff;
+    cursor: pointer;
+    border: none;
+    transition: background-color 0.3s;
+ }
+#container {
+    width: 100%;
+    margin-top:100px;
+    padding: 10px 60px;
+    display: flex;
+    margin-top:180px;
+    gap:40px;
+    flex-wrap:wrap;
+    
+}
+#container .Student{
+    width:300px;
+    /* flex:25%; */
+    border-radius: 10px;
+    background-color: #F4F6F6;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+ 
+}
+#container .student-card{
+    padding:16px 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    
+}
